@@ -1,3 +1,32 @@
+body {
+  font-family: $body-font-family;
+  font-size: 0.75rem;
+
+  @include media($medium-screen-up) {
+    font-size: 1rem;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font-family-script;
+  margin: 0 0 0.25rem 0;
+}
+
+h1 {
+  font-size: rem(20);
+  font-weight: 600;
+  line-height: 1.25;
+  padding-top: 20px;
+  border-top: 2px dotted #CCC;
+}
+
+h2 {
+  font-family: $heading-font-family-sans;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 10px;
 }
