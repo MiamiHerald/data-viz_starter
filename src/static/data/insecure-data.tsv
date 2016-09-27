@@ -1,21 +1,21 @@
-Counties	Average wages per employee by county from 2007-2015	Total employment change by county from 2007-2015
-Alachua	5	-1.10
+Counties	Average wages per employee by county from 2007-2015	Total employment change by county from 2007-2015	Percent change in poverty rate by county
+Alachua	5	-1.10	-14.50
 Baker	-2.00	-5.30
-Bay	-2.60	4.20
+Bay	-2.60	4.20	13.80
 Bradford	4.20	-12.40
-Brevard	-1.80	-4.50
-Broward	1.40	1.30
+Brevard	-1.80	-4.50	-6.00
+Broward	1.40	1.30	-5.10
 Calhoun	-1.80	-1.70
-Charlotte	-5.00	5.50
-Citrus	-1.50	-6.60
-Clay	1.20	5.80
-Collier	-4.70	1.90
-Columbia	-1.90	0.60
+Charlotte	-5.00	5.50	-10.90
+Citrus	-1.50	-6.60	1.50
+Clay	1.20	5.80	23.20
+Collier	-4.70	1.90	-1.40
+Columbia	-1.90	0.60	-13.50
 DeSoto	3.50	-6.00
 Dixie	2.60	-4.90
-Duval	-0.40	1.40
-Escambia	3.20	-3.30
-Flagler	-5.50	14.80
+Duval	-0.40	1.40	-8.70
+Escambia	3.20	-3.30	-23.40
+Flagler	-5.50	14.80	-27.90
 Franklin	-3.00	-1.80
 Gadsden	-3.30	-15.70
 Gilchrist	1.50	4.00
@@ -24,45 +24,45 @@ Gulf	-1.00	-10.10
 Hamilton	-2.60	-13.20
 Hardee	2.00	-11.40
 Hendry	6.30	-8.50
-Hernando	0.90	1.80
-Highlands	0.50	-6.60
-Hillsborough	4.60	-0.40
+Hernando	0.90	1.80	-15.10
+Highlands	0.50	-6.60	28.10
+Hillsborough	4.60	-0.40	-8.50
 Holmes	-2.50	-12.10
-Indian River	-2.10	-1.70
+Indian River	-2.10	-1.70	-18.90
 Jackson	-0.10	-4.70
 Jefferson	-3.20	-18.60
 Lafayette	-3.50	-16.50
-Lake	-1.90	8.10
-Lee	-4.90	8.20
-Leon	-1.70	-2.30
+Lake	-1.90	8.10	-12.80
+Lee	-4.90	8.20	2.30
+Leon	-1.70	-2.30	-5.80
 Levy	-1.80	-6.30
 Liberty	-10.90	-31.00
 Madison	3.00	-5.10
-Manatee	-0.80	-7.80
-Marion	-1.00	-6.50
-Martin	-5.30	2.90
-Miami-Dade	-0.10	6.30
-Monroe	-8.00	15.10
-Nassau	0.80	6.40
-Okaloosa	4.70	-2.40
+Manatee	-0.80	-7.80	1.40
+Marion	-1.00	-6.50	3.00
+Martin	-5.30	2.90	-13.90
+Miami-Dade	-0.10	6.30	-2.50
+Monroe	-8.00	15.10	-28.00
+Nassau	0.80	6.40	-14.50
+Okaloosa	4.70	-2.40	-21.00
 Okeechobee	3.90	-0.20
-Orange	0.20	10.20
-Osceola	-1.80	15.10
-Palm Beach	2.60	1.00
-Pasco	-0.10	9.10
-Pinellas	6.00	-6.60
-Polk	0.10	-1.00
-Putnam	-0.20	-15.30
-Santa Rosa	10.50	105.80
-Sarasota	-11.90	-54.60
-Seminole	-20.20	-80.40
-St. Johns	5.60	179.60
-St. Lucie	7.40	144.30
-Sumter	-4.40	29.00
+Orange	0.20	10.20	-11.90
+Osceola	-1.80	15.10	8.20
+Palm Beach	2.60	1.00	-7.50
+Pasco	-0.10	9.10	2.50
+Pinellas	6.00	-6.60	-5.70
+Polk	0.10	-1.00	-6.60
+Putnam	-0.20	-15.30	7.40
+Santa Rosa	10.50	105.80	7.10
+Sarasota	-11.90	-54.60	-25.10
+Seminole	-20.20	-80.40	-1.10
+St. Johns	5.60	179.60	14.10
+St. Lucie	7.40	144.30	-9.80
+Sumter	-4.40	29.00	-25.70
 Suwannee	-0.30	5.30
 Taylor	7.70	-6.10
 Union	-5.70	-12.80
-Volusia	1.10	-3.50
+Volusia	1.10	-3.50	-9.00
 Wakulla	-5.00	-6.10
 Walton	-3.20	13.60
 Washington	1.80	-13.30
