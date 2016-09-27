@@ -1,13 +1,36 @@
-.counties {
+.county {
   fill: none;
+  stroke: $white;
+  stroke-width: 0.5px;
 }
 
-.q0-9 { fill:rgb(247,251,255); }
-.q1-9 { fill:rgb(222,235,247); }
-.q2-9 { fill:rgb(198,219,239); }
-.q3-9 { fill:rgb(158,202,225); }
-.q4-9 { fill:rgb(107,174,214); }
-.q5-9 { fill:rgb(66,146,198); }
-.q6-9 { fill:rgb(33,113,181); }
-.q7-9 { fill:rgb(8,81,156); }
-.q8-9 { fill:rgb(8,48,107); }
+.q8-9 { fill: rgb(247,251,255); }
+.q7-9 { fill: rgb(222,235,247); }
+.q6-9 { fill: rgb(198,219,239); }
+.q5-9 { fill: rgb(158,202,225); }
+.q4-9 { fill: rgb(107,174,214); }
+.q3-9 { fill: rgb(66,146,198); }
+.q2-9 { fill: rgb(33,113,181); }
+.q1-9 { fill: rgb(8,81,156); }
+.q0-9 { fill: rgb(8,48,107); }
+
+.choropleth {
+  &__tooltip {
+    position: absolute;
+    transform: translateY(-100%);
+    pointer-events: none;
+    padding: 0.5em 1em;
+    font-size: rem(16);
+    color: $white;
+    background-color: rgba($black, 0.8);
+    border: em(1) solid $black;
+    border-radius: rem(5);
+    opacity: 0;
+    transition: opacity 0.1s ease;
+    font-family: $heading-font-family-sans;
+
+    &.is-active {
+      opacity: 1;
+    }
+  }
+}

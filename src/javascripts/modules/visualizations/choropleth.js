@@ -51,19 +51,39 @@ class Choropleth {
       .await(this.drawMap.bind(this));
   }
 
-  drawMap(error, shapeData, populationData) {
+  drawMap(error, shapeData) {
+    this.draWTooltip();
+
     this.projection = d3.geoEquirectangular()
       .fitSize([this.width, this.height], topojson.feature(shapeData, shapeData.objects[`florida-counties`]));
     this.path = d3.geoPath()
       .projection(this.projection);
 
-    this.svg.append(`g`)
-        .attr(`class`, `counties`)
-      .selectAll(`path`)
+    this.svg.selectAll(`path`)
         .data(topojson.feature(shapeData, shapeData.objects[`florida-counties`]).features)
       .enter().append(`path`)
-        .attr(`class`, (d) => `${this.quantize(this.rateById.get(d.properties.county))} ${d.properties.county}`)
-        .attr(`d`, this.path);
+        .attr(`class`, (d) => `${this.quantize(this.rateById.get(d.properties.county))} ${d.properties.county} county`)
+        .attr(`d`, this.path)
+        .on(`mouseover`, (d) => {
+          this.tooltip
+            .html(`${d.properties.county}: ${this.rateById.get(d.properties.county)}%`)
+            .classed(`is-active`, true);
+        })
+        .on(`mousemove`, () => {
+          this.tooltip
+            .style(`top`, `${d3.event.pageY}px`)
+            .style(`left`, `${d3.event.pageX}px`);
+        })
+        .on(`mouseout`, () => {
+          this.tooltip
+            .classed(`is-active`, false);
+        });
+  }
+
+  draWTooltip() {
+    this.tooltip = d3.select(this.el)
+      .append(`div`)
+      .attr(`class`, `choropleth__tooltip`);
   }
 }
 
