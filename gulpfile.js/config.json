@@ -36,8 +36,10 @@
         "browsers": ["last 3 version"]
       },
       "sass": {
-        "indentedSyntax": true,
+        "indentedSyntax": false,
         "includePaths": [
+          "./node_modules/bourbon/app/assets/stylesheets",
+          "./node_modules/bourbon-neat/app/assets/stylesheets",
           "./node_modules/normalize.css"
         ]
       },
