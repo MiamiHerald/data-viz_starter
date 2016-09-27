@@ -9,6 +9,14 @@
 {% block content %}
   <div class="container">
     <div class="row">
+      <div class="choropleth__intro">
+        <h1>Average wages per employee by county from 2007-2015</h1>
+        <p>
+          40 of 67 Florida Counties have seen real average annual wages -- adjusted for inflation -- per employee decline from 2007 to 2015. Although real annual wages paid per employee grew nationally by 4.3 percent from 2007 to 2015, the increase in Florida has only been about 1.9 percent.
+        </p>
+      </div>
+    </div>
+    <div class="row">
       <div id="choropleth" class="choropleth js-choropleth" data-url="{{ homeURL }}/data/insecure-data.tsv"></div>
     </div>
   </div>

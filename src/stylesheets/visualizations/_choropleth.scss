@@ -15,6 +15,11 @@
 .q0-9 { fill: rgb(8,48,107); }
 
 .choropleth {
+  &__intro {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  
   &__tooltip {
     position: absolute;
     transform: translateY(-100%);
