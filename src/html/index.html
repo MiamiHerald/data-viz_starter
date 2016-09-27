@@ -8,6 +8,8 @@
 
 {% block content %}
   <div class="container">
-    <h1>Hello World</h1>
+    <div class="row">
+      <div id="choropleth" class="choropleth js-choropleth" data-url="{{ homeURL }}/data/insecure-data.tsv"></div>
+    </div>
   </div>
 {% endblock %}

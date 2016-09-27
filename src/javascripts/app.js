@@ -1,2 +1,2 @@
-import { loadExample } from './modules/visualizations/example';
-loadExample();
+import { loadChoropleth } from './modules/visualizations/choropleth';
+loadChoropleth();
