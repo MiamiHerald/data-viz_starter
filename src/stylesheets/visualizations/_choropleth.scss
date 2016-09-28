@@ -2,24 +2,38 @@
   fill: none;
   stroke: $white;
   stroke-width: 0.5px;
+
+  &.is-active {
+    stroke: $black;
+  }
 }
 
-.q8-9 { fill: rgb(247,251,255); }
-.q7-9 { fill: rgb(222,235,247); }
-.q6-9 { fill: rgb(198,219,239); }
-.q5-9 { fill: rgb(158,202,225); }
-.q4-9 { fill: rgb(107,174,214); }
-.q3-9 { fill: rgb(66,146,198); }
-.q2-9 { fill: rgb(33,113,181); }
-.q1-9 { fill: rgb(8,81,156); }
-.q0-9 { fill: rgb(8,48,107); }
+.p8-9 { fill: rgba(155, 197, 61, 1); }
+.p7-9 { fill: rgba(155, 197, 61, 0.9); }
+.p6-9 { fill: rgba(155, 197, 61, 0.8); }
+.p5-9 { fill: rgba(155, 197, 61, 0.7); }
+.p4-9 { fill: rgba(155, 197, 61, 0.6); }
+.p3-9 { fill: rgba(155, 197, 61, 0.5); }
+.p2-9 { fill: rgba(155, 197, 61, 0.4); }
+.p1-9 { fill: rgba(155, 197, 61, 0.3); }
+.p0-9 { fill: rgba(155, 197, 61, 0.2); }
+
+.n0-9 { fill: rgba(195, 66, 63, 1); }
+.n1-9 { fill: rgba(195, 66, 63, 0.9); }
+.n2-9 { fill: rgba(195, 66, 63, 0.8); }
+.n3-9 { fill: rgba(195, 66, 63, 0.7); }
+.n4-9 { fill: rgba(195, 66, 63, 0.6); }
+.n5-9 { fill: rgba(195, 66, 63, 0.5); }
+.n6-9 { fill: rgba(195, 66, 63, 0.4); }
+.n7-9 { fill: rgba(195, 66, 63, 0.3); }
+.n8-9 { fill: rgba(195, 66, 63, 0.2); }
 
 .choropleth {
   &__intro {
     text-align: left;
     margin-bottom: 1rem;
   }
-  
+
   &__tooltip {
     position: absolute;
     transform: translateY(-100%);
@@ -31,7 +45,7 @@
     border: em(1) solid $black;
     border-radius: rem(5);
     opacity: 0;
-    transition: opacity 0.1s ease;
+    transition: opacity 0.3s linear;
     font-family: $heading-font-family-sans;
 
     &.is-active {
