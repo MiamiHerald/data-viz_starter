@@ -12,9 +12,9 @@ Extra additions include:
 - [Bourbon](http://bourbon.io/) and [Bourbon Neat](http://neat.bourbon.io/)
 - [D3](https://d3js.org/) and [Topojson](https://github.com/mbostock/topojson)
 - [jQuery](https://jquery.com/)
+- [Greensock](https://greensock.com/gsap)
+- [ScrollMagic](http://scrollmagic.io/)
 - [pym.js](http://blog.apps.npr.org/pym.js/)
-
-Be sure to have node installed and that you are using Node `5.12.0` or earlier as there is an issue with Node 6. See [#302](https://github.com/vigetlabs/gulp-starter/issues/302).
 
 ```
 git clone https://github.com/MiamiHerald/data-viz_starter.git MyApp
@@ -22,8 +22,11 @@ cd MyApp
 npm install
 ```
 
-To remove git and add your own repo run `rm -rf .git && git init`
+### A note about Node
 
+After installing, you'll need to use [nvm (Node Version Manager)](https://github.com/creationix/nvm) to switch to Node `v5.12.0` or earlier as there is an issue with Node 6. See [#302](https://github.com/vigetlabs/gulp-starter/issues/302).
+
+To remove git and add your own repo run `rm -rf .git && git init`
 
 ### Serving
 
